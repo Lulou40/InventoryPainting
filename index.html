@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Paint Inventory</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Paint Inventory</h1>
+            <div class="small" id="status">Chargement...</div>
+        </div>
+        <div>
+            <button id="copyLink">Copier mon lien</button>
+        </div>
+    </header>
+
+    <div class="topline">
+        <input id="search" placeholder="Rechercher une peinture (nom, marque, gamme)..." />
+    </div>
+    <div style="display:flex; gap:10px; margin:10px 0;">
+        <button id="filterAll">Toutes</button>
+        <button id="filterOwned">Possédées</button>
+        <button id="filterMissing">Manquantes</button>
+    </div>
+    <div class="small" id="count"></div>
+    <div id="list"></div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
