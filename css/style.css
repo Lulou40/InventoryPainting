@@ -109,6 +109,10 @@
        text-align: center;
    }
 
+   .img,.got{
+    flex:1;
+   }
+
    @media (max-width: 600px) {
        body {
            padding: 0px;
